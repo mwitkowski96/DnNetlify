@@ -1,0 +1,70 @@
+.section {
+
+    padding: 2rem 1rem;
+
+    &--zone {
+        padding: 0;
+    }
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    &__title, &__subtitle{
+        text-align: center;
+    }
+
+    &__title {
+        padding: 1rem;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: 500;
+
+        &--top{
+            padding: 1rem;
+        }
+
+        &--white{
+            color: $pure-white;
+        }
+    }
+
+    &__subtitle {
+        padding: 1rem;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+
+        &--white{
+            color: $pure-white;
+        }
+    }
+
+    &__line{
+        margin: 0 auto;
+        width: 80%;
+        height: 1px;
+
+        &--black{
+            background: $deep-black;
+        }
+        
+
+        &--white{
+            background: $pure-white;
+        }
+    }
+
+    &__desktop--heading{
+        display: none;
+    }
+}
+
+.heading__wing {
+    width: 25px;
+    height: 1px;
+    background-color: $deep-black;
+    margin: 1rem 0;
+}

@@ -1,0 +1,34 @@
+@import './reset';
+@import './colors';
+@import './bgcs';
+@import './bgi';
+@import './components';
+@import './container';
+@import './section';
+@import './slider';
+@import './nav';
+@import './header';
+@import './about-us';
+@import './zone';
+@import './signature';
+@import './advantages';
+@import './complex';
+@import './footer';
+@import './portfolio';
+@import './offer';
+@import './small';
+@import './medium';
+@import './desktop';
+@import './large';
+@import './extra-large';
+
+
+html{
+    font-size: 62.5%; // 1rem = 10px
+    font-family: 'Montserrat' sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+

@@ -1,0 +1,19 @@
+.slider {
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: calc(100vh - 10rem);
+
+
+    &-slide {
+
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+    }
+}

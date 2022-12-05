@@ -1,0 +1,96 @@
+.portfolio {
+    margin-top: 55px;
+}
+
+.filter {
+
+    &__box{
+        border: 1px solid black;
+        margin-top: 30px;
+    }
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__item{
+        padding: 0.7rem;
+        margin: 0.5rem 0;
+        font-size: 1.2rem;
+       
+        &--active {
+            border-radius: 5px;
+            background-color: rgba(153, 205, 50, 0.527);
+        }
+    }
+}
+
+.gallery {
+    &__box {
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex: 1;
+        gap: 2rem;
+    }
+
+    &__thumbnail{
+        width: 230px;
+        height: 350px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+    &__details{
+        padding: 15px 0;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__image{
+        position: relative;
+        left: 15px;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        z-index: 4;
+    }
+
+
+    &__description {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 5;
+        background-color: $transparent-white;
+        font-size: 1rem;
+        display: flex;
+        padding: .5rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
+
+
+#barberShop {
+    background-image: url('/dist/img/BarberShop/okladka.png');
+}
+
+#biuro {
+    background-image: url('/dist/img/Biuro/okladka.png');
+}
+
+#studio1{
+    background-image: url('/dist/img/kawalerka/okladka.png');
+}
+
+#studio2{
+    background-image: url('/dist/img/kawalerka2/okladka.png');
+}
+

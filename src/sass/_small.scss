@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+    .advantage {
+        &__boxes {
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        &__box {
+            width: 50%;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

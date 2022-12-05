@@ -1,0 +1,59 @@
+.complex {
+
+    background-position: center center;
+    background-image: url('/dist/img/advantagesBig.webp');
+   
+    
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    &__item {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 2rem;
+
+        &--reverse {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5rem;
+        width: 60px;
+        color: $pure-white;
+    }
+
+    &__text {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        line-height: 25px;
+        padding: 1rem;
+        color: $pure-white;
+
+    }
+}
+
+.complex-text-wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin: 0 .8rem;
+
+}

@@ -1,0 +1,75 @@
+.about-us {
+
+    &__box {
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    &__details{
+        background-image: url('/dist/img/DnBgcLogo.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 2rem 0;
+    }
+
+    &__paragraph {
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2rem;
+        padding: 0.5rem 0;
+    }
+
+    &__images {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 500px;
+
+        &--desktop{
+            display: none;
+        }
+    }
+
+    &__architects{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--left, &--right{
+            position: relative;
+        }
+    }
+
+    &__left-rectangle{
+        position: relative;
+        left: 1rem;
+        height: 300px;
+    }
+
+    &__left-photo{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 90%;
+    }
+
+    &__right-rectangle{
+        position: relative;
+        right: 1rem;
+        height: 270px;
+    }
+
+    &__right-photo{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 90%;
+    }
+}
